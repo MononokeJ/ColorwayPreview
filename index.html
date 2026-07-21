@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#f5f7f5" />
+    <meta
+      name="description"
+      content="在浏览器本地为覆盖马赛克最终黑白像素图配置两套纯色或渐变线材配色。"
+    />
+    <title>覆盖马赛克配色预览器</title>
+    <script type="module" crossorigin src="./assets/index-CxmD29Io.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BFF4kN_3.css">
+  </head>
+  <body>
+    <header class="app-bar">
+      <div class="brand-block">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <div>
+          <h1>覆盖马赛克配色预览器</h1>
+          <p>实际像素配色</p>
+        </div>
+      </div>
+      <button id="reset-button" class="icon-button" type="button" title="重置配色" aria-label="重置配色">
+        <i data-lucide="rotate-ccw"></i>
+      </button>
+    </header>
+
+    <main class="workspace">
+      <section class="preview-pane" aria-label="图片预览">
+        <div class="preview-heading">
+          <div class="segmented-control" role="group" aria-label="预览模式">
+            <button id="result-mode" class="segment is-active" type="button" aria-pressed="true">效果图</button>
+            <button id="original-mode" class="segment" type="button" aria-pressed="false">原图</button>
+          </div>
+          <div class="preview-status-area">
+            <span id="render-status" class="render-status" aria-live="polite">等待图片</span>
+            <div id="delete-confirm" class="delete-confirm" role="alertdialog" aria-label="删除当前图片确认" hidden>
+              <span>删除当前图片？</span>
+              <button id="cancel-delete-image" class="secondary-button compact-action" type="button">取消</button>
+              <button id="confirm-delete-image" class="danger-action compact-action" type="button">删除</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="preview-tools" class="preview-tools" aria-label="预览工具" hidden>
+          <button id="zoom-out" class="icon-button compact" type="button" title="缩小" aria-label="缩小" disabled>
+            <i data-lucide="zoom-out"></i>
+          </button>
+          <button id="zoom-label" class="zoom-readout" type="button" title="切换到 100%" disabled>--</button>
+          <button id="zoom-in" class="icon-button compact" type="button" title="放大" aria-label="放大" disabled>
+            <i data-lucide="zoom-in"></i>
+          </button>
+          <span class="toolbar-divider" aria-hidden="true"></span>
+          <button id="fit-view" class="tool-button" type="button" disabled>
+            <i data-lucide="maximize-2"></i><span>适合屏幕</span>
+          </button>
+          <button id="delete-image" class="icon-button compact danger-button" type="button" title="删除当前图片" aria-label="删除当前图片" disabled>
+            <i data-lucide="trash-2"></i>
+          </button>
+        </div>
+
+        <div id="preview-stage" class="preview-stage" tabindex="0" aria-label="像素图预览，可拖动和缩放">
+          <canvas id="preview-canvas"></canvas>
+          <button id="empty-upload" class="empty-state" type="button">
+            <span class="empty-icon"><i data-lucide="image-plus"></i></span>
+            <strong>点击上传 PNG</strong>
+            <span>最终实际大小黑白像素图</span>
+          </button>
+        </div>
+        <input id="file-input" type="file" accept="image/png,.png" hidden />
+      </section>
+
+      <aside class="controls-pane" aria-label="配色设置">
+        <div class="colorway-grid">
+          <section id="black-editor" class="control-section fill-editor" aria-labelledby="black-title">
+            <div class="section-heading fill-heading">
+              <div>
+                <span class="step-index coral">01</span>
+                <h2 id="black-title">黑色区域</h2>
+              </div>
+              <span class="fill-swatch" aria-hidden="true"></span>
+            </div>
+            <div class="editor-content"></div>
+          </section>
+
+          <section id="white-editor" class="control-section fill-editor" aria-labelledby="white-title">
+            <div class="section-heading fill-heading">
+              <div>
+                <span class="step-index gold">02</span>
+                <h2 id="white-title">白色区域</h2>
+              </div>
+              <span class="fill-swatch" aria-hidden="true"></span>
+            </div>
+            <div class="editor-content"></div>
+          </section>
+        </div>
+
+        <div class="swap-row">
+          <button id="swap-colors" class="tool-button" type="button">
+            <i data-lucide="arrow-left-right"></i><span>交换黑白配色</span>
+          </button>
+          <p id="contrast-message" class="contrast-message"></p>
+        </div>
+
+        <section class="control-section export-section" aria-labelledby="export-title">
+          <div class="section-heading">
+            <div>
+              <span class="step-index cyan">03</span>
+              <h2 id="export-title">导出</h2>
+            </div>
+          </div>
+          <div class="export-actions">
+            <button id="download-button" class="primary-button" type="button" disabled>
+              <i data-lucide="download"></i><span>保存 PNG</span>
+            </button>
+            <button id="share-button" class="secondary-button" type="button" disabled>
+              <i data-lucide="share-2"></i><span>分享图片</span>
+            </button>
+          </div>
+          <p id="export-message" class="status-message" aria-live="polite"></p>
+        </section>
+      </aside>
+    </main>
+
+
+  </body>
+</html>
