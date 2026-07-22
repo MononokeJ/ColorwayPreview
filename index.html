@@ -3,35 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#f5f7f5" />
+    <meta name="theme-color" content="#F4F5F2" />
+    <link rel="icon" type="image/svg+xml" href="./icons/colorway-title-icon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon-180.png" />
+    <link rel="manifest" href="./manifest.webmanifest" />
     <meta
       name="description"
-      content="在浏览器本地为覆盖马赛克最终黑白像素图配置两套纯色或渐变线材配色。"
+      content="在浏览器本地为覆盖马赛克最终黑白像素图配置两套单色或多色线材配色。"
     />
     <title>覆盖马赛克配色预览器</title>
-    <script type="module" crossorigin src="./assets/index-DSJW3WbY.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-BFF4kN_3.css">
+    <script type="module" crossorigin src="./assets/index-CcEN8smZ.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Qd7AbCml.css">
   </head>
   <body>
     <header class="app-bar">
       <div class="brand-block">
-        <span class="brand-mark" aria-hidden="true"></span>
+        <img class="brand-icon" src="./icons/colorway-title-icon.svg" width="24" height="24" alt="" aria-hidden="true" />
         <div>
           <h1>覆盖马赛克配色预览器</h1>
-          <p>实际像素配色</p>
+          <p id="product-version">v--</p>
         </div>
       </div>
-      <button id="reset-button" class="icon-button" type="button" title="重置配色" aria-label="重置配色">
-        <i data-lucide="rotate-ccw"></i>
-      </button>
+      <button id="reset-button" class="text-button reset-color-button" type="button">重置配色</button>
     </header>
 
     <main class="workspace">
-      <section class="preview-pane" aria-label="图片预览">
+      <section id="preview-pane" class="preview-pane" aria-label="图片预览">
         <div class="preview-heading">
-          <div class="segmented-control" role="group" aria-label="预览模式">
-            <button id="result-mode" class="segment is-active" type="button" aria-pressed="true">效果图</button>
-            <button id="original-mode" class="segment" type="button" aria-pressed="false">原图</button>
+          <div id="preview-tools" class="preview-tools" aria-label="预览工具" hidden>
+            <span id="zoom-label" class="zoom-readout" aria-label="缩放倍率">--</span>
+            <button id="fit-view" class="tool-button responsive-tool" type="button" title="适合屏幕" disabled>
+              <i data-lucide="maximize-2"></i><span class="responsive-label">适合屏幕</span>
+            </button>
+            <button id="delete-image" class="icon-button compact danger-button" type="button" title="删除当前图片" aria-label="删除当前图片" disabled>
+              <i data-lucide="trash-2"></i>
+            </button>
           </div>
           <div class="preview-status-area">
             <span id="render-status" class="render-status" aria-live="polite">等待图片</span>
@@ -41,23 +48,6 @@
               <button id="confirm-delete-image" class="danger-action compact-action" type="button">删除</button>
             </div>
           </div>
-        </div>
-
-        <div id="preview-tools" class="preview-tools" aria-label="预览工具" hidden>
-          <button id="zoom-out" class="icon-button compact" type="button" title="缩小" aria-label="缩小" disabled>
-            <i data-lucide="zoom-out"></i>
-          </button>
-          <button id="zoom-label" class="zoom-readout" type="button" title="切换到 100%" disabled>--</button>
-          <button id="zoom-in" class="icon-button compact" type="button" title="放大" aria-label="放大" disabled>
-            <i data-lucide="zoom-in"></i>
-          </button>
-          <span class="toolbar-divider" aria-hidden="true"></span>
-          <button id="fit-view" class="tool-button" type="button" disabled>
-            <i data-lucide="maximize-2"></i><span>适合屏幕</span>
-          </button>
-          <button id="delete-image" class="icon-button compact danger-button" type="button" title="删除当前图片" aria-label="删除当前图片" disabled>
-            <i data-lucide="trash-2"></i>
-          </button>
         </div>
 
         <div id="preview-stage" class="preview-stage" tabindex="0" aria-label="像素图预览，可拖动和缩放">
@@ -79,7 +69,6 @@
                 <span class="step-index coral">01</span>
                 <h2 id="black-title">黑色区域</h2>
               </div>
-              <span class="fill-swatch" aria-hidden="true"></span>
             </div>
             <div class="editor-content"></div>
           </section>
@@ -90,7 +79,6 @@
                 <span class="step-index gold">02</span>
                 <h2 id="white-title">白色区域</h2>
               </div>
-              <span class="fill-swatch" aria-hidden="true"></span>
             </div>
             <div class="editor-content"></div>
           </section>
@@ -113,9 +101,6 @@
           <div class="export-actions">
             <button id="download-button" class="primary-button" type="button" disabled>
               <i data-lucide="download"></i><span>保存 PNG</span>
-            </button>
-            <button id="share-button" class="secondary-button" type="button" disabled>
-              <i data-lucide="share-2"></i><span>分享图片</span>
             </button>
           </div>
           <p id="export-message" class="status-message" aria-live="polite"></p>
