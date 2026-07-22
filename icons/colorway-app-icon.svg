@@ -1,15 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-  <title id="title">覆盖马赛克配色预览器主屏幕图标</title>
-  <desc id="desc">浅灰背景上的深绿、珊瑚红和暖金色三段竖向色块</desc>
-  <defs>
-    <clipPath id="mark-clip">
-      <rect x="82" y="82" width="348" height="348" rx="56"/>
-    </clipPath>
-  </defs>
-  <rect width="512" height="512" fill="#F4F5F2"/>
-  <g clip-path="url(#mark-clip)">
-    <rect x="82" y="82" width="174" height="348" fill="#245C4A"/>
-    <rect x="256" y="82" width="97" height="348" fill="#C74F43"/>
-    <rect x="353" y="82" width="77" height="348" fill="#D6A83F"/>
-  </g>
+  <title id="title">ColorwayPreview home-screen icon</title>
+  <desc id="desc">Full-bleed green, coral, and gold vertical color blocks</desc>
+  <rect width="256" height="512" fill="#245C4A"/>
+  <rect x="256" width="143.36" height="512" fill="#C74F43"/>
+  <rect x="399.36" width="112.64" height="512" fill="#D6A83F"/>
 </svg>
