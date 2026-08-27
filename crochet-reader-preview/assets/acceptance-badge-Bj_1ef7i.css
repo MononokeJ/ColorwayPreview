@@ -1,0 +1,1 @@
+.acceptance-build-badge{position:fixed;z-index:2000;left:max(10px,env(safe-area-inset-left));bottom:max(10px,env(safe-area-inset-bottom));padding:5px 8px;border:1px solid #315c50;border-radius:5px;background:#fbfcfbf5;color:#315c50;box-shadow:0 4px 14px #24302d29;font:700 11px/1.2 Microsoft YaHei,PingFang SC,system-ui,sans-serif;letter-spacing:0;pointer-events:none}

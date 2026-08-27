@@ -1,0 +1,23 @@
+{
+  "name": "覆盖马赛克工具箱（验收版）",
+  "short_name": "覆盖马赛克验收",
+  "display": "standalone",
+  "start_url": "./",
+  "scope": "./",
+  "theme_color": "#526F65",
+  "background_color": "#EDF1EF",
+  "icons": [
+    {
+      "src": "./crochet-reader-app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./crochet-reader-app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#F4F5F2" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon-180.png" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <meta name="description" content="在浏览器本地为覆盖马赛克最终黑白像素图配置两套单色或多色线材配色。" />
+    <title>覆盖马赛克配色预览器</title>
+    <script type="module" crossorigin src="./assets/colorway-A3bkqkfl.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/acceptance-badge-Dh5WAWRS.js">
+    <link rel="modulepreload" crossorigin href="./assets/lucide-BLv26vk8.js">
+    <link rel="stylesheet" crossorigin href="./assets/acceptance-badge-Bj_1ef7i.css">
+    <link rel="stylesheet" crossorigin href="./assets/colorway-C6yubRKq.css">
+  </head>
+  <body>
+    <header class="app-bar">
+      <div class="colorway-titlebar"><a class="icon-button toolbox-back" href="./index.html" title="返回工具箱" aria-label="返回工具箱"><i data-lucide="arrow-left"></i></a><div class="brand-block"><img class="brand-icon" src="./crochet-reader-app-icon-192.png" width="24" height="24" alt="" aria-hidden="true" /><div><h1>覆盖马赛克配色预览器</h1><p id="product-version">v--</p></div></div></div>
+      <button id="reset-button" class="text-button reset-color-button" type="button">重置配色</button>
+    </header>
+    <main class="workspace">
+      <section id="preview-pane" class="preview-pane" aria-label="图片预览">
+        <div class="preview-heading">
+          <div id="preview-tools" class="preview-tools" aria-label="预览工具" hidden><span id="zoom-label" class="zoom-readout" aria-label="缩放倍率">--</span><button id="fit-view" class="tool-button responsive-tool" type="button" title="适合屏幕" disabled><i data-lucide="maximize-2"></i><span class="responsive-label">适合屏幕</span></button><button id="delete-image" class="icon-button compact danger-button" type="button" title="删除当前图片" aria-label="删除当前图片" disabled><i data-lucide="trash-2"></i></button></div>
+          <div class="preview-status-area"><span id="render-status" class="render-status" aria-live="polite">等待图片</span><div id="delete-confirm" class="delete-confirm" role="alertdialog" aria-label="删除当前图片确认" hidden><span>删除当前图片？</span><button id="cancel-delete-image" class="secondary-button compact-action" type="button">取消</button><button id="confirm-delete-image" class="danger-action compact-action" type="button">删除</button></div></div>
+        </div>
+        <div id="preview-stage" class="preview-stage" tabindex="0" aria-label="像素图预览，可拖动和缩放"><canvas id="preview-canvas"></canvas><button id="empty-upload" class="empty-state" type="button"><span class="empty-icon"><i data-lucide="image-plus"></i></span><strong>点击上传图片</strong><span>最终实际大小黑白像素图</span></button></div>
+        <input id="file-input" type="file" accept="image/*,.png,.jpg,.jpeg" hidden />
+      </section>
+      <aside class="controls-pane" aria-label="配色设置">
+        <div class="colorway-grid">
+          <section id="black-editor" class="control-section fill-editor" aria-labelledby="black-title"><div class="section-heading fill-heading"><div><span class="step-index coral">01</span><h2 id="black-title">黑色区域</h2></div></div><div class="editor-content"></div></section>
+          <section id="white-editor" class="control-section fill-editor" aria-labelledby="white-title"><div class="section-heading fill-heading"><div><span class="step-index gold">02</span><h2 id="white-title">白色区域</h2></div></div><div class="editor-content"></div></section>
+        </div>
+        <div class="swap-row"><button id="swap-colors" class="tool-button" type="button"><i data-lucide="arrow-left-right"></i><span>交换黑白配色</span></button><p id="contrast-message" class="contrast-message"></p></div>
+        <section class="control-section export-section" aria-labelledby="export-title"><div class="section-heading"><div><span class="step-index cyan">03</span><h2 id="export-title">导出</h2></div></div><div class="export-actions"><button id="download-button" class="primary-button" type="button" disabled><i data-lucide="download"></i><span>保存 PNG</span></button></div><p id="export-message" class="status-message" aria-live="polite"></p></section>
+      </aside>
+    </main>
+  </body>
+</html>
