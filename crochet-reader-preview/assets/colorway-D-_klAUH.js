@@ -1,4 +1,4 @@
-import{m as Ft}from"./acceptance-badge-Dh5WAWRS.js";import{c as St,A as It}from"./lucide-BLv26vk8.js";/**
+import{m as Ft}from"./acceptance-badge-DVezzRjt.js";import{c as St,A as It}from"./lucide-BLv26vk8.js";/**
  * @license lucide v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.
