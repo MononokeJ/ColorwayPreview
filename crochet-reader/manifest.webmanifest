@@ -1,11 +1,11 @@
 {
-  "name": "覆盖马赛克图解跟钩助手",
-  "short_name": "图解跟钩",
+  "name": "覆盖马赛克工具箱",
+  "short_name": "覆盖马赛克",
   "display": "standalone",
   "start_url": "./",
   "scope": "./",
-  "theme_color": "#245C4A",
-  "background_color": "#F7F8F5",
+  "theme_color": "#526F65",
+  "background_color": "#EDF1EF",
   "icons": [
     {
       "src": "./crochet-reader-app-icon-192.png",
