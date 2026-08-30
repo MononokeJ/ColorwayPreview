@@ -1,6 +1,6 @@
 {
-  "name": "覆盖马赛克工具箱（验收版）",
-  "short_name": "覆盖马赛克验收",
+  "name": "Overlay Mosaic Toolbox Preview",
+  "short_name": "Overlay Mosaic Preview",
   "display": "standalone",
   "start_url": "./",
   "scope": "./",

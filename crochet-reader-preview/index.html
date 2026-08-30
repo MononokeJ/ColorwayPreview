@@ -1,40 +1,42 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-toolbox="true" data-i18n-title="toolbox.pageTitle" data-i18n-pending>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#526f65" />
-    <meta name="application-name" content="覆盖马赛克工具箱" />
+    <meta name="application-name" content="Overlay Mosaic Toolbox" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="覆盖马赛克" />
+    <meta name="apple-mobile-web-app-title" content="Overlay Mosaic" />
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon-180.png" />
     <link rel="manifest" href="./manifest.webmanifest" />
     <title>覆盖马赛克工具箱</title>
-    <script type="module" crossorigin src="./assets/toolbox-BmViCJLB.js"></script>
-    <link rel="modulepreload" crossorigin href="./assets/acceptance-badge-DVezzRjt.js">
-    <link rel="stylesheet" crossorigin href="./assets/acceptance-badge-CqV9FnvH.css">
-    <link rel="stylesheet" crossorigin href="./assets/toolbox-B-l7HKx3.css">
+    <script type="module" crossorigin src="./assets/toolbox-Cq7L6Ye8.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/acceptance-badge-DodOg5mt.js">
+    <link rel="modulepreload" crossorigin href="./assets/i18n-qVZyI_jy.js">
+    <link rel="stylesheet" crossorigin href="./assets/acceptance-badge-Dv6hkEu1.css">
+    <link rel="stylesheet" crossorigin href="./assets/toolbox-ChI82FZx.css">
   </head>
   <body>
     <main class="toolbox-shell">
       <header class="toolbox-header">
         <img src="./crochet-reader-app-icon-192.png" width="48" height="48" alt="" />
-        <div><h1>覆盖马赛克工具箱</h1><p>为配色与跟钩准备的本地工具</p></div>
+        <div class="toolbox-brand-copy"><h1 data-i18n="toolbox.title">覆盖马赛克工具箱</h1><p data-i18n="toolbox.subtitle">为配色与跟钩准备的本地工具</p></div>
+        <div id="language-switch" class="toolbox-language"></div>
       </header>
-      <section class="tool-list" aria-label="工具列表">
+      <section class="tool-list" aria-label="工具列表" data-i18n-aria-label="toolbox.tools">
         <a class="tool-row" href="./colorway.html">
           <span class="tool-index">01</span>
-          <span class="tool-copy"><strong>配色预览</strong><small>为黑白像素图配置单色或多色线材配色</small></span>
+          <span class="tool-copy"><strong data-i18n="toolbox.colorway">配色预览</strong><small data-i18n="toolbox.colorwayDescription">为黑白像素图配置单色或多色线材配色</small></span>
           <span class="tool-arrow" aria-hidden="true">›</span>
         </a>
         <a class="tool-row" href="./reader.html">
           <span class="tool-index blue">02</span>
-          <span class="tool-copy"><strong>图解跟钩助手</strong><small>导入 .omchart 数据包，同步查看总览图与文字解进度</small></span>
+          <span class="tool-copy"><strong data-i18n="toolbox.reader">图解跟钩助手</strong><small data-i18n="toolbox.readerDescription">导入 .omchart 数据包，同步查看总览图与文字解并记录跟钩进度</small></span>
           <span class="tool-arrow" aria-hidden="true">›</span>
         </a>
       </section>
-      <footer>工具内的数据仅保存在当前浏览器</footer>
+      <footer data-i18n="toolbox.localOnly">工具内的数据仅保存在当前浏览器</footer>
     </main>
   </body>
 </html>
