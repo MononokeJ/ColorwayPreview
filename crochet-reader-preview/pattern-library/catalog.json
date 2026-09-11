@@ -1,0 +1,18 @@
+[
+  {
+    "id": "hello-sanshi-cn",
+    "name": "Hello_Sanshi_CN_49pages",
+    "author": "Mononoke_J",
+    "columns": 300,
+    "rows": 299,
+    "availability": {
+      "overview": true,
+      "writtenPattern": true
+    },
+    "packageSha256": "b092f3b74ecce2b26f6b6f1f36b37f99a2a53a7e07b8368bad131279ec2b74c4",
+    "thumbnail": "hello-sanshi-cn/thumbnail.png",
+    "package": "hello-sanshi-cn/pattern.omchart",
+    "pdf": "hello-sanshi-cn/Hello_Sanshi_CN_49pages.pdf",
+    "writtenPatternLanguage": "zh-CN"
+  }
+]
