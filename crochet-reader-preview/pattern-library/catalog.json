@@ -13,6 +13,23 @@
     "thumbnail": "hello-sanshi-cn/thumbnail.png",
     "package": "hello-sanshi-cn/pattern.omchart",
     "pdf": "hello-sanshi-cn/Hello_Sanshi_CN_49pages.pdf",
-    "writtenPatternLanguage": "zh-CN"
+    "writtenPatternLanguage": "zh-CN",
+    "description": "《你好，三十》是根据我家猫咪的照片设计的一款覆盖马赛克钩针毯子图解。“三十”是我家猫咪的名字，纪念他在 2024年6月30日这一天来到我家。\n\n图解信息\n钩织技法： 覆盖马赛克\n图解尺寸： 300针宽 × 299行高\n使用颜色： 2种\n\n我的样品信息\n线材： 8股蛋糕线\n钩针尺寸： 3.0 mm\n密度: 27 针 × 28 行 = 10 cm × 10 cm\n\n颜色A（浅色）用量： 约590 g\n颜色B（深色）用量： 约470 g\n成品尺寸： 约110 cm宽 × 115 cm高\n\n你可以根据自己的喜好选择任意两种颜色。为了让猫咪轮廓和细节更加清晰，建议选择明暗差异较大或对比度较高的颜色。\n\n线材用量和最终成品尺寸会受个人所用线材粗细、钩针尺寸、手劲等因素的影响，因此可能会与样品有所不同。"
+  },
+  {
+    "id": "pattern-994613b1d0124b92",
+    "columns": 159,
+    "rows": 259,
+    "availability": {
+      "overview": true,
+      "writtenPattern": true
+    },
+    "packageSha256": "01560fa2db61b1917e10d6aaa8bf94a225a002e71daf3ec4d84c41c7434e44f5",
+    "writtenPatternLanguage": "zh-CN",
+    "name": "黎深_甜梦如织_跟钩数据包_159x259_CN",
+    "package": "pattern-994613b1d0124b92/pattern.omchart",
+    "thumbnail": "pattern-994613b1d0124b92/thumbnail.png",
+    "author": "Mononoke_J",
+    "description": ""
   }
 ]
