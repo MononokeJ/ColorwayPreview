@@ -17,6 +17,42 @@
     "description": "《你好，三十》是根据我家猫咪的照片设计的一款覆盖马赛克钩针毯子图解。“三十”是我家猫咪的名字，纪念他在 2024年6月30日这一天来到我家。\n\n图解信息\n钩织技法： 覆盖马赛克\n图解尺寸： 300针宽 × 299行高\n使用颜色： 2种\n\n我的样品信息\n线材： 8股蛋糕线\n钩针尺寸： 3.0 mm\n密度: 27 针 × 28 行 = 10 cm × 10 cm\n\n颜色A（浅色）用量： 约590 g\n颜色B（深色）用量： 约470 g\n成品尺寸： 约110 cm宽 × 115 cm高\n\n你可以根据自己的喜好选择任意两种颜色。为了让猫咪轮廓和细节更加清晰，建议选择明暗差异较大或对比度较高的颜色。\n\n线材用量和最终成品尺寸会受个人所用线材粗细、钩针尺寸、手劲等因素的影响，因此可能会与样品有所不同。"
   },
   {
+    "id": "pattern-05fc6d8c73c44426",
+    "columns": 159,
+    "rows": 295,
+    "availability": {
+      "overview": true,
+      "writtenPattern": true
+    },
+    "packageSha256": "535c3d8a65d55bdc3e3afa711d16a86e4332c53f4b80e78c74d5f3bae474755b",
+    "writtenPatternLanguage": "zh-CN",
+    "name": "甜梦如织 祁煜",
+    "package": "pattern-05fc6d8c73c44426/pattern.omchart",
+    "thumbnail": "pattern-05fc6d8c73c44426/thumbnail.png",
+    "preview": "pattern-05fc6d8c73c44426/preview.png",
+    "author": "Mononoke_J",
+    "description": "图解仅供个人使用，禁一切商用，禁转载搬运",
+    "pdf": "pattern-05fc6d8c73c44426/祁煜_甜梦如织_原色完整图解_159x295.pdf"
+  },
+  {
+    "id": "pattern-640f50344b734e10",
+    "columns": 159,
+    "rows": 273,
+    "availability": {
+      "overview": true,
+      "writtenPattern": true
+    },
+    "packageSha256": "7478ec9e11896633fa1e7ce8eb34f0ab32321e97e7285368f1f64a4c5c78e166",
+    "writtenPatternLanguage": "zh-CN",
+    "name": "甜梦如织 沈星回",
+    "package": "pattern-640f50344b734e10/pattern.omchart",
+    "thumbnail": "pattern-640f50344b734e10/thumbnail.png",
+    "preview": "pattern-640f50344b734e10/preview.png",
+    "author": "Mononoke_J",
+    "description": "图解仅供个人使用，禁一切商用，禁转载搬运",
+    "pdf": "pattern-640f50344b734e10/沈星回_甜梦如织_原色完整图解_159x273.pdf"
+  },
+  {
     "id": "pattern-89a1f2ff58634d01",
     "columns": 159,
     "rows": 259,
