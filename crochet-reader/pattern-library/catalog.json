@@ -35,6 +35,24 @@
     "pdf": "pattern-05fc6d8c73c44426/祁煜_甜梦如织_原色完整图解_159x295.pdf"
   },
   {
+    "id": "pattern-40bfcbcc9198408f",
+    "columns": 159,
+    "rows": 259,
+    "availability": {
+      "overview": true,
+      "writtenPattern": true
+    },
+    "packageSha256": "268aa4b5d879ffc8efdd0ae851655c65e1dc0a9cda15f09a2fec4223ad395f69",
+    "writtenPatternLanguage": "zh-CN",
+    "name": "甜梦如织 夏以昼",
+    "package": "pattern-40bfcbcc9198408f/pattern.omchart",
+    "thumbnail": "pattern-40bfcbcc9198408f/thumbnail.png",
+    "preview": "pattern-40bfcbcc9198408f/preview.png",
+    "author": "Mononoke_J",
+    "description": "图解仅供个人使用，禁一切商用，禁转载搬运",
+    "pdf": "pattern-40bfcbcc9198408f/夏以昼_甜梦如织v2_原色完整图解_159x259.pdf"
+  },
+  {
     "id": "pattern-640f50344b734e10",
     "columns": 159,
     "rows": 273,
@@ -55,19 +73,37 @@
   {
     "id": "pattern-89a1f2ff58634d01",
     "columns": 159,
-    "rows": 259,
+    "rows": 263,
     "availability": {
       "overview": true,
       "writtenPattern": true
     },
-    "packageSha256": "01560fa2db61b1917e10d6aaa8bf94a225a002e71daf3ec4d84c41c7434e44f5",
-    "writtenPatternLanguage": "zh-CN",
+    "packageSha256": "e1cda2ed7b43755c5f33c197df765d434aae36f395bc2c78a10f1794e44af93d",
     "name": "甜梦如织 黎深",
     "package": "pattern-89a1f2ff58634d01/pattern.omchart",
     "thumbnail": "pattern-89a1f2ff58634d01/thumbnail.png",
     "preview": "pattern-89a1f2ff58634d01/preview.png",
     "author": "Mononoke_J",
-    "description": "图解仅供个人使用，禁一切商用，禁转载搬运\n\n以下是按8股蛋糕线、3.0mm钩针估算的用线量\n（适用说明：预计重量仅供相近线材、钩针规格及钩织松紧度参考）\n\n黑色：约 213 g\n肤色：约 32 g\n浅蓝：约 294 g",
-    "pdf": "pattern-89a1f2ff58634d01/黎深_甜梦如织_原色完整图解_159x259.pdf"
+    "description": "图解仅供个人使用，禁一切商用，禁转载搬运",
+    "pdf": "pattern-89a1f2ff58634d01/黎深_甜梦如织v2_原色完整图解_159x263.pdf",
+    "writtenPatternLanguage": "zh-CN"
+  },
+  {
+    "id": "pattern-e757ce50a94349e5",
+    "columns": 159,
+    "rows": 271,
+    "availability": {
+      "overview": true,
+      "writtenPattern": true
+    },
+    "packageSha256": "d9e8d2d5774ace9c8f6887ffe275fe90a50ef3f814197944017263f64f773f41",
+    "writtenPatternLanguage": "zh-CN",
+    "name": "甜梦如织 秦彻",
+    "package": "pattern-e757ce50a94349e5/pattern.omchart",
+    "thumbnail": "pattern-e757ce50a94349e5/thumbnail.png",
+    "preview": "pattern-e757ce50a94349e5/preview.png",
+    "author": "Mononoke_J",
+    "description": "图解仅供个人使用，禁一切商用，禁转载搬运",
+    "pdf": "pattern-e757ce50a94349e5/秦彻_甜梦如织_原色完整图解_159x271.pdf"
   }
 ]
