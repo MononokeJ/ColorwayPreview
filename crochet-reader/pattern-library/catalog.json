@@ -105,5 +105,22 @@
     "author": "Mononoke_J",
     "description": "图解仅供个人使用，禁一切商用，禁转载搬运",
     "pdf": "pattern-e757ce50a94349e5/秦彻_甜梦如织_原色完整图解_159x271.pdf"
+  },
+  {
+    "id": "pattern-f4000cf2f66646cd",
+    "columns": 269,
+    "rows": 268,
+    "availability": {
+      "overview": true,
+      "writtenPattern": true
+    },
+    "packageSha256": "989f25b06b184291ac194a9501e2ce4a7ef477a33c0b2aba1a7586d641366b0e",
+    "writtenPatternLanguage": "zh-CN",
+    "name": "富江",
+    "package": "pattern-f4000cf2f66646cd/pattern.omchart",
+    "thumbnail": "pattern-f4000cf2f66646cd/thumbnail.png",
+    "preview": "pattern-f4000cf2f66646cd/preview.png",
+    "author": "Mononoke_J",
+    "description": "画师：hushly.gb\n图解绘制：Mononoke_J\n\n图解仅供个人使用，禁一切商用"
   }
 ]
