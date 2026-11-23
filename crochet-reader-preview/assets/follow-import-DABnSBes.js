@@ -1,4 +1,4 @@
-import{d as Me}from"./lucide-BLv26vk8.js";import{D as se}from"./i18n-D4rm6BJJ.js";/**
+import{d as Me}from"./lucide-BLv26vk8.js";import{D as se}from"./i18n-B3KnWu_6.js";/**
  * @license lucide v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.

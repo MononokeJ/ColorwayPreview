@@ -1,0 +1,1 @@
+import{m as e}from"./acceptance-badge-DodOg5mt.js";import{i as t}from"./i18n-B3KnWu_6.js";import{c as a}from"./author-contacts-DKguguD-.js";t.applyDocument();const o=document.querySelector("#language-switch");o&&t.mountLocaleSwitch(o);e(t);const n=document.querySelector("#author-contacts"),c=()=>{n?.replaceChildren(a())};c();t.subscribe(c);

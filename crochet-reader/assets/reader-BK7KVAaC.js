@@ -1,4 +1,4 @@
-import"./acceptance-badge-DmDYBg_n.js";import{d as L,c as C,A as q}from"./lucide-BLv26vk8.js";import{t as a,i as M,l as P,I as V}from"./i18n-D4rm6BJJ.js";import{d as $,I as U,F as H,P as X,O as j,a as Y,b as _,A as G}from"./follow-import-CMa4hWiZ.js";/**
+import"./acceptance-badge-DmDYBg_n.js";import{d as L,c as C,A as q}from"./lucide-BLv26vk8.js";import{t as a,i as M,l as P,I as V}from"./i18n-Don-Nm5Z.js";import{d as $,I as U,F as H,P as X,O as j,a as Y,b as _,A as G}from"./follow-import-BuUt5RlF.js";/**
  * @license lucide v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.
