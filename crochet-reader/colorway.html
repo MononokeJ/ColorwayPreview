@@ -9,11 +9,11 @@
     <link rel="manifest" href="./manifest.webmanifest" />
     <meta name="description" content="在浏览器本地为覆盖马赛克最终黑白像素图配置两套单色或多色线材配色。" data-i18n-content="colorway.description" />
     <title>覆盖马赛克配色预览器</title>
-    <script type="module" crossorigin src="./assets/colorway-DWmA_FR6.js"></script>
+    <script type="module" crossorigin src="./assets/colorway-CaIhRaBC.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/acceptance-badge-DmDYBg_n.js">
     <link rel="modulepreload" crossorigin href="./assets/lucide-BLv26vk8.js">
     <link rel="stylesheet" crossorigin href="./assets/acceptance-badge-Dv6hkEu1.css">
-    <link rel="stylesheet" crossorigin href="./assets/colorway-BgmeF66k.css">
+    <link rel="stylesheet" crossorigin href="./assets/colorway-C1Wd7R3B.css">
   </head>
   <body>
     <header class="app-bar">
@@ -23,7 +23,7 @@
     <main class="workspace">
       <section id="preview-pane" class="preview-pane" aria-label="图片预览" data-i18n-aria-label="colorway.preview">
         <div class="preview-heading">
-          <div id="preview-tools" class="preview-tools" aria-label="预览工具" data-i18n-aria-label="colorway.previewTools" hidden><span id="zoom-label" class="zoom-readout" aria-label="缩放倍率" data-i18n-aria-label="colorway.zoom">--</span><button id="fit-view" class="tool-button responsive-tool" type="button" title="适合屏幕" data-i18n-title="colorway.fit" disabled><i data-lucide="maximize-2"></i><span class="responsive-label" data-i18n="colorway.fit">适合屏幕</span></button><button id="delete-image" class="icon-button compact danger-button" type="button" title="删除当前图片" aria-label="删除当前图片" data-i18n-title="colorway.removeImage" data-i18n-aria-label="colorway.removeImage" disabled><i data-lucide="trash-2"></i></button></div>
+          <div id="preview-tools" class="preview-tools" aria-label="预览工具" data-i18n-aria-label="colorway.previewTools" hidden><button id="zoom-label" class="zoom-readout" type="button" title="点击恢复 100%" aria-label="点击恢复 100%" data-i18n-title="colorway.resetZoom" data-i18n-aria-label="colorway.resetZoom" disabled>--</button><button id="fit-view" class="tool-button responsive-tool" type="button" title="适合屏幕" data-i18n-title="colorway.fit" disabled><i data-lucide="maximize-2"></i><span class="responsive-label" data-i18n="colorway.fit">适合屏幕</span></button><button id="delete-image" class="icon-button compact danger-button" type="button" title="删除当前图片" aria-label="删除当前图片" data-i18n-title="colorway.removeImage" data-i18n-aria-label="colorway.removeImage" disabled><i data-lucide="trash-2"></i></button></div>
           <div class="preview-status-area"><span id="render-status" class="render-status" aria-live="polite" data-i18n="colorway.waiting">等待图片</span><div id="delete-confirm" class="delete-confirm" role="alertdialog" aria-label="删除当前图片确认" data-i18n-aria-label="colorway.removeConfirmLabel" hidden><span data-i18n="colorway.removeConfirm">删除当前图片？</span><button id="cancel-delete-image" class="secondary-button compact-action" type="button" data-i18n="colorway.cancel">取消</button><button id="confirm-delete-image" class="danger-action compact-action" type="button" data-i18n="colorway.delete">删除</button></div></div>
         </div>
         <div id="preview-stage" class="preview-stage" tabindex="0" aria-label="像素图预览，可拖动和缩放" data-i18n-aria-label="colorway.emptyPreview"><canvas id="preview-canvas"></canvas><button id="empty-upload" class="empty-state" type="button"><span class="empty-icon"><i data-lucide="image-plus"></i></span><strong data-i18n="colorway.upload">点击上传图片</strong><span data-i18n="colorway.uploadHint">最终实际大小黑白像素图</span></button></div>
